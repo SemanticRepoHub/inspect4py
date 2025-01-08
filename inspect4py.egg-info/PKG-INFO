@@ -1,3 +1,28 @@
+Metadata-Version: 2.1
+Name: inspect4py
+Version: 0.0.8
+Summary: Static code analysis package for Python repositories
+Home-page: https://github.com/SoftwareUnderstanding/inspect4py
+Author: Rosa Filgueira and Daniel Garijo
+License: BSD-3-Clause
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docstring_parser==0.7
+Requires-Dist: astor
+Requires-Dist: graphviz
+Requires-Dist: click
+Requires-Dist: pigar
+Requires-Dist: setuptools==54.2.0
+Requires-Dist: json2html
+Requires-Dist: configparser
+Requires-Dist: bigcode_astgen
+Requires-Dist: GitPython
+Requires-Dist: tree-sitter
+Requires-Dist: requests
+
 # inspect4py 
 [![PyPI](https://badge.fury.io/py/inspect4py.svg)](https://badge.fury.io/py/inspect4py) [![DOI](https://zenodo.org/badge/349160905.svg)](https://zenodo.org/badge/latestdoi/349160905) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
